@@ -1,0 +1,75 @@
+.contact__profolio {
+  display: block;
+  justify-content: space-between;
+  margin: 1rem;
+}
+.contact__profolio .address{
+  padding-bottom: 1rem;
+}
+p{
+  padding-top: 0.5rem;
+}
+a{
+  padding-top: 1rem;
+}
+.contact__social {
+  display: flex;
+  flex-direction: column;
+}
+.contact__social-icon {
+  width: max-content;
+  margin-bottom: var(--mb-2);
+  font-size: 1.5rem;
+  color: var(--second-color);
+}
+.contact__social-icon:hover {
+  color: var(--first-color);
+}
+.contact__input {
+  width: 100%;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-semi);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1.5px solid var(--second-color);
+  outline: none;
+  margin-bottom: var(--mb-4);
+}
+.contact__button {
+  display: block;
+  border: none;
+  outline: none;
+  font-size: var(--normal-font-size);
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  color: #fff;
+  background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+  touch-action: manipulation;
+}
+.contact__button:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+@media screen and (min-width: 768px) {
+  .contact__social {
+    padding-top: 0;
+    padding-bottom: 2.5rem;
+    flex-direction: row;
+    align-self: flex-end;
+  }
+  .contact__social-icon {
+    margin-bottom: 0;
+    margin-right: var(--mb-4);
+  }
+  .contact__container{
+    display: flex;
+    column-gap: 8rem;
+    }
+  .contact__form {
+    width: 300px;
+  }
+  .contact__profolio {
+    width: 200px
+  }
+}
