@@ -14,7 +14,7 @@ const About = () => {
     return (
         <>
             <section className="about section " id="about">
-                <h2 className="section-title">Về Bản Thân</h2>
+                <h2 className="section-title">About</h2>
 
                 <div className="about__container bd-grid">
                     <div className="about__img">
@@ -22,14 +22,14 @@ const About = () => {
                     </div>
 
                     <div>
-                        <h2 className="about__subtitle">Tôi Là Trần Đình Huy Hoàng</h2>
+                        <h2 className="about__subtitle">I'm Tran Dinh Huy Hoang</h2>
                         <p className="about__text">
                              20/08/2001
                         </p>
                         <p className="about__text">
                             Learn and improve your programming expertise. Desire to become a part of the business to learn and improve myself.
                         </p>
-                        <h3 className="about__subtitle">Học Vấn</h3>
+                        <h3 className="about__subtitle">Education</h3>
                         <p className="about__education">
                             HaNoi University Business And Technology
                         </p>

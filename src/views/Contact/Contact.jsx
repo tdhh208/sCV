@@ -18,7 +18,7 @@ const Contact = () => {
     return (
         <>
             <section className="contact section" id="contact">
-                <h2 className="section-title">Liên Hệ</h2>
+                <h2 className="section-title">Contacts</h2>
 
                 <div className="contact__container bd-grid">
                     <div className="contact__profolio">

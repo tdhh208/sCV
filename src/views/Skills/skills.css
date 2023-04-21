@@ -50,6 +50,9 @@
 .skills__react {
   width: 45%;
 }
+.skills__c {
+  width: 60%;
+}
 .skills__img {
   border-radius: 0.5rem;
 }

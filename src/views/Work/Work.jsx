@@ -17,7 +17,7 @@ const Work = () => {
     return (
         <>
             <section className="work section" id="work">
-                <h2 className="section-title">Kinh Nghiệm Làm Việc</h2>
+                <h2 className="section-title">Work Experience</h2>
 
                 <div className="work__container bd-grid">
                     <div className="work__img">

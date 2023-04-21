@@ -8,31 +8,31 @@ const NavBar = () => {
         [
             {
                 id: 1,
-                name: "Trang Chủ",
+                name: "Home",
                 to: "/portfolio-convert/#home",
                 className: "nav__link",
             },
             {
                 id: 2,
-                name: "Về Bản Thân",
+                name: "About",
                 to: "/portfolio-convert/#about",
                 className: "nav__link",
             },
             {
                 id: 3,
-                name: "Kỹ Năng",
+                name: "Skill",
                 to: "/portfolio-convert/#skills",
                 className: "nav__link",
             },
             {
                 id: 4,
-                name: "Kinh Nghiệm",
+                name: "Work Experience",
                 to: "/portfolio-convert/#work",
                 className: "nav__link",
             },
             {
                 id: 5,
-                name: "Liên Hệ",
+                name: "Contact",
                 to: "/portfolio-convert/#contact",
                 className: "nav__link",
             }
