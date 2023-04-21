@@ -54,7 +54,7 @@ const NavBar = () => {
             <header className="l-header">
                 <nav className="nav bd-grid">
                     <div>
-                        <a href="/portfolio-convert/" className="nav__logo">MyCV</a>
+                        <a href="/portfolio-convert/" className="nav__logo">TDHH</a>
                     </div>
 
                     <div 

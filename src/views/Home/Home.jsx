@@ -1,6 +1,6 @@
 import { React, useEffect } from 'react'
 import './home.css'
-import {IMG_2527} from '../../assets/img/IMG_2527.jpg'
+import ava from '../../assets/img/ava.jpg'
 import { sr } from '../../ultis/ScrollReveal';
 
 const Home = () => {
@@ -21,7 +21,7 @@ const Home = () => {
                     <a href="https://drive.google.com/file/d/1q0h-tz9pBmEoez5oiWrRMIkoGmONN33C/view?usp=sharing" className="button">MyCV</a>
                 </div>
                 <div className="home__img">    
-                    <img src={IMG_2527} alt="Avatar"/>
+                    <img src={ava} alt="Avatar"/>
                 </div>
             </section>
         </>
