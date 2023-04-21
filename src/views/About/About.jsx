@@ -1,6 +1,6 @@
 import { React, useEffect } from 'react'
 import './about.css'
-import about from '../../assets/img/about.jpg'
+import {IMG_2527} from '../../assets/img/IMG_2527.jpg'
 import { sr } from '../../ultis/ScrollReveal';
 
 const About = () => {
@@ -18,7 +18,7 @@ const About = () => {
 
                 <div className="about__container bd-grid">
                     <div className="about__img">
-                        <img src={about} alt="About" />
+                        <img src={IMG_2527} alt="About" />
                     </div>
 
                     <div>
