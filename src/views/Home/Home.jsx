@@ -18,7 +18,7 @@ const Home = () => {
                     <h1 className="home__title">
                         Hi,I'm <br/><span className="home__title-color">Tran Dinh Huy Hoang </span>
                     </h1>
-                    <a href="https://drive.google.com/file/d/1q0h-tz9pBmEoez5oiWrRMIkoGmONN33C/view?usp=sharing" className="button">MyCV</a>
+                    <a href="https://drive.google.com/file/d/1dmghZ4et_r7aUZuGnyhL21SgqMKRtV1B/view?usp=sharing" className="button">MyCV</a>
                 </div>
                 <div className="home__img">    
                     <img src={ava} alt="Avatar"/>
